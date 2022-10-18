@@ -1,4 +1,4 @@
-## 실행
+## 카프카 실행
 docker-compose up -d
 
 ## stomp 원리 (단점 : 브로커(웹소켓)이 서부 내부에 있어서 서버 확장에 불리)
@@ -10,3 +10,5 @@ docker-compose up -d
 - 웹소켓 연결(핸드셰이킹)
 - 구독하기 (stomp)
 - kafka 컨트롤러 호출 -> kafka producer 호출 -> 토픽을 구독하는 애들에게 전송 -> consumer는 stomp.converAndSend 호출
+
+## static폴더 socket-test.html 열어서 테스트 하면 됨
